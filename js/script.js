@@ -12,10 +12,12 @@ const errorMessage = document.getElementById("errorMessage");
 const errorText = document.getElementById("errorText");
 const exampleBtns = document.querySelectorAll(".example-btn");
 
-// Fungsi untuk mencari kode pos
-function findPostalCode(cityName) {
-  const normalizedInput = cityName.trim().toLowerCase();
-  return postalData.find((item) => item.kota.toLowerCase() === normalizedInput);
+// Fungsi untuk mencari kode pos di dalam database
+function cariKodePos(kota) {
+  const inputnamakota = kota.trim().toLowerCase();
+  return postalData.find((item) => {
+    return item.kota.trim().toLowerCase() === inputnamakota;
+  });
 }
 
 // Fungsi untuk menampilkan hasil
@@ -30,7 +32,7 @@ function showResult(result) {
     resultCard.classList.remove("hidden");
     resultCard.classList.add("animate-fade-in");
   } else {
-    errorText.textContent = `Maaf, kode pos untuk "${cityInput.value}" tidak ditemukan dalam database kami.`;
+    errorText.textContent = `Maaf, kode pos untuk "${cityInput.value}" tidak ditemukan dalam database.`;
 
     initialMessage.classList.add("hidden");
     resultCard.classList.add("hidden");
@@ -42,7 +44,7 @@ function showResult(result) {
 // Event klik tombol cari
 searchBtn.addEventListener("click", () => {
   if (cityInput.value.trim() !== "") {
-    const result = findPostalCode(cityInput.value);
+    const result = cariKodePos(cityInput.value);
     showResult(result);
   } else {
     initialMessage.classList.remove("hidden");
@@ -56,7 +58,7 @@ exampleBtns.forEach((btn) => {
   btn.addEventListener("click", () => {
     const city = btn.getAttribute("data-city");
     cityInput.value = city;
-    const result = findPostalCode(city);
+    const result = cariKodePos(city);
     showResult(result);
   });
 });

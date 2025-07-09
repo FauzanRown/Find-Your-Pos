@@ -1,9 +1,0 @@
-# IGNORE ALL
-/*
-/.*
-/*.*
-!/data/
-!/*.md
-!LICENSE
-!.gitignore
-!.gitkeep
