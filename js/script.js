@@ -53,16 +53,6 @@ searchBtn.addEventListener("click", () => {
   }
 });
 
-// Event klik tombol contoh kota
-exampleBtns.forEach((btn) => {
-  btn.addEventListener("click", () => {
-    const city = btn.getAttribute("data-city");
-    cityInput.value = city;
-    const result = cariKodePos(city);
-    showResult(result);
-  });
-});
-
 // Event enter pada input
 cityInput.addEventListener("keypress", (e) => {
   if (e.key === "Enter") {
