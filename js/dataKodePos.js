@@ -1,0 +1,210 @@
+export const postalData = [
+  { kota: "Banda Aceh", kodepost: "23111", provinsi: "Aceh" },
+  { kota: "Sabang", kodepost: "23511", provinsi: "Aceh" },
+  { kota: "Lhokseumawe", kodepost: "24311", provinsi: "Aceh" },
+  { kota: "Aceh Barat", kodepost: "23615", provinsi: "Aceh" },
+  { kota: "Aceh Timur", kodepost: "24411", provinsi: "Aceh" },
+  { kota: "Medan", kodepost: "20111", provinsi: "Sumatera Utara" },
+  { kota: "Binjai", kodepost: "20711", provinsi: "Sumatera Utara" },
+  { kota: "Toba", kodepost: "22316", provinsi: "Sumatera Utara" },
+  { kota: "Simalungun", kodepost: "21111", provinsi: "Sumatera Utara" },
+
+  // Provinsi Sumatera Barat (Zona 2)
+  { kota: "Padang", kodepost: "25111", provinsi: "Sumatera Barat" },
+  { kota: "Bukittinggi", kodepost: "26111", provinsi: "Sumatera Barat" },
+  { kota: "Agam", kodepost: "26411", provinsi: "Sumatera Barat" },
+  { kota: "Lima Puluh Kota", kodepost: "26211", provinsi: "Sumatera Barat" },
+
+  // Provinsi Riau (Zona 2)
+  { kota: "Pekanbaru", kodepost: "28111", provinsi: "Riau" },
+  { kota: "Dumai", kodepost: "28811", provinsi: "Riau" },
+  { kota: "Kampar", kodepost: "28411", provinsi: "Riau" },
+  { kota: "Indragiri Hulu", kodepost: "29311", provinsi: "Riau" },
+
+  // Provinsi Kepulauan Riau (Zona 2)
+  { kota: "Tanjung Pinang", kodepost: "29111", provinsi: "Kepulauan Riau" },
+  { kota: "Batam", kodepost: "29411", provinsi: "Kepulauan Riau" },
+  { kota: "Bintan", kodepost: "29111", provinsi: "Kepulauan Riau" },
+  { kota: "Karimun", kodepost: "29611", provinsi: "Kepulauan Riau" },
+
+  // Provinsi Jambi (Zona 3)
+  { kota: "Jambi", kodepost: "36111", provinsi: "Jambi" },
+  { kota: "Sungaipenuh", kodepost: "37111", provinsi: "Jambi" },
+  { kota: "Muaro Jambi", kodepost: "36311", provinsi: "Jambi" },
+  { kota: "Batanghari", kodepost: "36611", provinsi: "Jambi" },
+
+  // Provinsi Sumatera Selatan (Zona 3)
+  { kota: "Palembang", kodepost: "30111", provinsi: "Sumatera Selatan" },
+  { kota: "Prabumulih", kodepost: "31111", provinsi: "Sumatera Selatan" },
+  { kota: "Musi Banyuasin", kodepost: "30711", provinsi: "Sumatera Selatan" },
+  {
+    kota: "Ogan Komering Ulu",
+    kodepost: "32111",
+    provinsi: "Sumatera Selatan",
+  },
+
+  // Provinsi Bengkulu (Zona 3)
+  { kota: "Bengkulu", kodepost: "38211", provinsi: "Bengkulu" },
+  { kota: "Bengkulu Utara", kodepost: "38611", provinsi: "Bengkulu" },
+
+  // Provinsi Lampung (Zona 3)
+  { kota: "Bandar Lampung", kodepost: "35111", provinsi: "Lampung" },
+  { kota: "Metro", kodepost: "34111", provinsi: "Lampung" },
+  { kota: "Lampung Utara", kodepost: "34511", provinsi: "Lampung" },
+  { kota: "Lampung Timur", kodepost: "34311", provinsi: "Lampung" },
+
+  // Provinsi Bangka Belitung (Zona 3)
+  {
+    kota: "Pangkal Pinang",
+    kodepost: "33111",
+    provinsi: "Kepulauan Bangka Belitung",
+  },
+  { kota: "Bangka", kodepost: "33111", provinsi: "Kepulauan Bangka Belitung" },
+  {
+    kota: "Belitung",
+    kodepost: "33411",
+    provinsi: "Kepulauan Bangka Belitung",
+  },
+
+  // Provinsi DKI Jakarta (Zona 1)
+  { kota: "Jakarta Pusat", kodepost: "10110", provinsi: "DKI Jakarta" },
+  { kota: "Jakarta Barat", kodepost: "11110", provinsi: "DKI Jakarta" },
+  { kota: "Jakarta Selatan", kodepost: "12110", provinsi: "DKI Jakarta" },
+  { kota: "Jakarta Timur", kodepost: "13310", provinsi: "DKI Jakarta" },
+  { kota: "Jakarta Utara", kodepost: "14110", provinsi: "DKI Jakarta" },
+
+  // Provinsi Banten (Zona 1 dan 4)
+  { kota: "Serang", kodepost: "42111", provinsi: "Banten" },
+  { kota: "Tangerang", kodepost: "15111", provinsi: "Banten" },
+  { kota: "Cilegon", kodepost: "42411", provinsi: "Banten" },
+  { kota: "Lebak", kodepost: "42311", provinsi: "Banten" },
+  { kota: "Pandeglang", kodepost: "42211", provinsi: "Banten" },
+
+  // Provinsi Jawa Barat (Zona 4)
+  { kota: "Bandung", kodepost: "40111", provinsi: "Jawa Barat" },
+  { kota: "Bogor", kodepost: "16111", provinsi: "Jawa Barat" },
+  { kota: "Bekasi", kodepost: "17111", provinsi: "Jawa Barat" },
+  { kota: "Cirebon", kodepost: "45111", provinsi: "Jawa Barat" },
+  { kota: "Garut", kodepost: "44111", provinsi: "Jawa Barat" },
+  { kota: "Cianjur", kodepost: "43211", provinsi: "Jawa Barat" },
+  { kota: "Ciamis", kodepost: "46211", provinsi: "Jawa Barat" },
+
+  // Provinsi Jawa Tengah (Zona 5)
+  { kota: "Semarang", kodepost: "50111", provinsi: "Jawa Tengah" },
+  { kota: "Surakarta", kodepost: "57111", provinsi: "Jawa Tengah" },
+  { kota: "Magelang", kodepost: "56111", provinsi: "Jawa Tengah" },
+  { kota: "Grobogan", kodepost: "58111", provinsi: "Jawa Tengah" },
+  { kota: "Cilacap", kodepost: "53211", provinsi: "Jawa Tengah" },
+  { kota: "Pati", kodepost: "59111", provinsi: "Jawa Tengah" },
+
+  // Provinsi DI Yogyakarta (Zona 5)
+  { kota: "Yogyakarta", kodepost: "55111", provinsi: "DI Yogyakarta" },
+  { kota: "Sleman", kodepost: "55511", provinsi: "DI Yogyakarta" },
+  { kota: "Bantul", kodepost: "55711", provinsi: "DI Yogyakarta" },
+  { kota: "Gunung Kidul", kodepost: "55811", provinsi: "DI Yogyakarta" },
+  { kota: "Kulon Progo", kodepost: "55611", provinsi: "DI Yogyakarta" },
+
+  // Provinsi Jawa Timur (Zona 6)
+  { kota: "Surabaya", kodepost: "60111", provinsi: "Jawa Timur" },
+  { kota: "Malang", kodepost: "65111", provinsi: "Jawa Timur" },
+  { kota: "Kediri", kodepost: "64111", provinsi: "Jawa Timur" },
+  { kota: "Ngawi", kodepost: "63211", provinsi: "Jawa Timur" },
+  { kota: "Jember", kodepost: "68111", provinsi: "Jawa Timur" },
+  { kota: "Bojonegoro", kodepost: "62111", provinsi: "Jawa Timur" },
+
+  // Provinsi Bali (Zona 8)
+  { kota: "Denpasar", kodepost: "80227", provinsi: "Bali" },
+  { kota: "Badung", kodepost: "80351", provinsi: "Bali" },
+  { kota: "Buleleng", kodepost: "81111", provinsi: "Bali" },
+  { kota: "Karangasem", kodepost: "80811", provinsi: "Bali" },
+
+  // Provinsi Nusa Tenggara Barat (Zona 8)
+  { kota: "Mataram", kodepost: "83111", provinsi: "NTB" },
+  { kota: "Bima", kodepost: "84111", provinsi: "NTB" },
+  { kota: "Lombok Barat", kodepost: "83311", provinsi: "NTB" },
+  { kota: "Sumbawa", kodepost: "84311", provinsi: "NTB" },
+
+  // Provinsi Nusa Tenggara Timur (Zona 8)
+  { kota: "Kupang", kodepost: "85111", provinsi: "NTT" },
+  { kota: "Sumba Barat", kodepost: "87211", provinsi: "NTT" },
+  { kota: "Flores Timur", kodepost: "86211", provinsi: "NTT" },
+
+  // Provinsi Kalimantan Barat (Zona 7)
+  { kota: "Pontianak", kodepost: "78111", provinsi: "Kalimantan Barat" },
+  { kota: "Singkawang", kodepost: "79111", provinsi: "Kalimantan Barat" },
+  { kota: "Sintang", kodepost: "78611", provinsi: "Kalimantan Barat" },
+  { kota: "Kapuas Hulu", kodepost: "78711", provinsi: "Kalimantan Barat" },
+
+  // Provinsi Kalimantan Tengah (Zona 7)
+  { kota: "Palangka Raya", kodepost: "73111", provinsi: "Kalimantan Tengah" },
+  {
+    kota: "Kotawaringin Timur",
+    kodepost: "74311",
+    provinsi: "Kalimantan Tengah",
+  },
+  { kota: "Barito Utara", kodepost: "73811", provinsi: "Kalimantan Tengah" },
+
+  // Provinsi Kalimantan Selatan (Zona 7)
+  { kota: "Banjarmasin", kodepost: "70111", provinsi: "Kalimantan Selatan" },
+  { kota: "Banjarbaru", kodepost: "70711", provinsi: "Kalimantan Selatan" },
+  {
+    kota: "Hulu Sungai Selatan",
+    kodepost: "71211",
+    provinsi: "Kalimantan Selatan",
+  },
+  { kota: "Tabalong", kodepost: "71511", provinsi: "Kalimantan Selatan" },
+
+  // Provinsi Kalimantan Timur (Zona 7)
+  { kota: "Samarinda", kodepost: "75111", provinsi: "Kalimantan Timur" },
+  { kota: "Balikpapan", kodepost: "76111", provinsi: "Kalimantan Timur" },
+  { kota: "Bontang", kodepost: "75311", provinsi: "Kalimantan Timur" },
+  { kota: "Berau", kodepost: "77311", provinsi: "Kalimantan Timur" },
+  { kota: "Kutai Barat", kodepost: "75711", provinsi: "Kalimantan Timur" },
+
+  // Provinsi Kalimantan Utara (Zona 7)
+  { kota: "Tarakan", kodepost: "77111", provinsi: "Kalimantan Utara" },
+  { kota: "Bulungan", kodepost: "77211", provinsi: "Kalimantan Utara" },
+  { kota: "Nunukan", kodepost: "77411", provinsi: "Kalimantan Utara" },
+
+  // Provinsi Sulawesi Utara (Zona 9)
+  { kota: "Manado", kodepost: "95111", provinsi: "Sulawesi Utara" },
+  { kota: "Bitung", kodepost: "95511", provinsi: "Sulawesi Utara" },
+  { kota: "Minahasa", kodepost: "95611", provinsi: "Sulawesi Utara" },
+  { kota: "Bolaang Mongondow", kodepost: "95711", provinsi: "Sulawesi Utara" },
+
+  // Provinsi Gorontalo (Zona 9)
+  { kota: "Gorontalo", kodepost: "96111", provinsi: "Gorontalo" },
+  { kota: "Bone Bolango", kodepost: "96511", provinsi: "Gorontalo" },
+  { kota: "Pohuwato", kodepost: "96411", provinsi: "Gorontalo" },
+
+  // Provinsi Sulawesi Tengah (Zona 9)
+  { kota: "Palu", kodepost: "94111", provinsi: "Sulawesi Tengah" },
+  { kota: "Banggai", kodepost: "94711", provinsi: "Sulawesi Tengah" },
+  { kota: "Poso", kodepost: "94611", provinsi: "Sulawesi Tengah" },
+
+  // Provinsi Sulawesi Selatan (Zona 9)
+  { kota: "Makassar", kodepost: "90111", provinsi: "Sulawesi Selatan" },
+  { kota: "Parepare", kodepost: "91111", provinsi: "Sulawesi Selatan" },
+  { kota: "Bone", kodepost: "92711", provinsi: "Sulawesi Selatan" },
+  { kota: "Gowa", kodepost: "92111", provinsi: "Sulawesi Selatan" },
+
+  // Provinsi Sulawesi Tenggara (Zona 9)
+  { kota: "Kendari", kodepost: "93111", provinsi: "Sulawesi Tenggara" },
+  { kota: "Baubau", kodepost: "93711", provinsi: "Sulawesi Tenggara" },
+  { kota: "Kolaka", kodepost: "93511", provinsi: "Sulawesi Tenggara" },
+  { kota: "Konawe", kodepost: "93411", provinsi: "Sulawesi Tenggara" },
+
+  // Provinsi Sulawesi Barat (Zona 9)
+  { kota: "Mamuju", kodepost: "91511", provinsi: "Sulawesi Barat" },
+  { kota: "Majene", kodepost: "91411", provinsi: "Sulawesi Barat" },
+  { kota: "Mamasa", kodepost: "91311", provinsi: "Sulawesi Barat" },
+
+  // Provinsi Maluku (Zona 9)
+  { kota: "Ambon", kodepost: "97111", provinsi: "Maluku" },
+  { kota: "Tual", kodepost: "97611", provinsi: "Maluku" },
+  { kota: "Maluku Tengah", kodepost: "97511", provinsi: "Maluku" },
+
+  // Provinsi Maluku Utara (Zona 9)
+  { kota: "Ternate", kodepost: "97711", provinsi: "Maluku Utara" },
+  { kota: "Tidore", kodepost: "97811", provinsi: "Maluku Utara" },
+  { kota:
