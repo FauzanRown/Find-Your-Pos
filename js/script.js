@@ -44,6 +44,7 @@ function showResult(result) {
 // Event klik tombol cari
 searchBtn.addEventListener("click", () => {
   if (cityInput.value.trim() !== "") {
+    // artinya user sudah isi sesuatu
     const result = cariKodePos(cityInput.value);
     showResult(result);
   } else {
